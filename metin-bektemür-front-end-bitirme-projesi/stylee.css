@@ -1,0 +1,134 @@
+.logo{
+    width: 1500px;
+    
+}
+/* .marka{
+    margin: 0 50px !important;
+    padding: 0 !important;
+} */
+.head ul{
+    list-style-type: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.s-resim{
+    height: 480px !important;
+}
+.s-resim1{
+    height: 100% !important;
+}
+
+.baslık::after{
+    content: "";
+    width: 250px;
+    height: 2px;
+    background-color: black;
+    display:inline-block;
+}
+.footer-bosluk li{
+    margin-bottom: 8px;
+}
+
+.form-control{
+    background-color: #ebe0d05a;
+    border-radius: 0 !important; 
+}
+p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+
+.slide-hiza{
+    height: 70vh;
+    margin-top: 50px;
+}
+.sepet-resim{
+    max-width: 100px !important; 
+    height: 80px !important;
+}
+.resim{
+    width: 100%;
+    height: 100%;
+}
+.price{
+    height: 25px;
+    align-items: center;
+    display: flex;
+    
+}
+.price-içi input{
+   width: 35px;
+}
+.sepet{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.sepet-başlık th{
+    background-color: orange !important;
+    color:white !important;
+}
+
+.sell-1 img {
+    width: 250px;
+    height: 400px;
+}
+.btn:hover{
+    background-color:white!important;
+    color: black !important;
+}
+
+
+.select select {
+    background-color: #F8F4EE;
+    text-transform: capitalize;
+}
+.baslik p{
+    text-transform: capitalize;
+}
+.total input{
+    pointer-events: none;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.108);
+    border: #F8F4EE;
+    text-transform: capitalize;
+}
+.total input:first-child{
+  margin-top: 30px;
+}
+.total input::placeholder{
+    color: rgba(0, 0, 0, 0.716);
+}
+.total button{
+    text-transform: capitalize;
+}
+
+
+@media (max-width:905px){
+    .sell-1 img{
+        width:190px !important;
+        height: 350px !important;
+    }
+}
+@media (max-width:852px){
+    .sell-1 img{
+        width:140px !important;
+        height: 280px !important;
+        margin-bottom: 95px;
+    }
+}
+@media (max-width:528px){
+    .sell-1 img{
+        width:100px !important;
+        height: 200px !important;
+      
+    }
+}
+
